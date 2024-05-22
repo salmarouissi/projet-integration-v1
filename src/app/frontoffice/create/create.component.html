@@ -1,0 +1,51 @@
+<section class="min-vh-100">
+  <form class="box-form">
+    <div class="left">
+      <div class="overlay">
+        <h1>Create An Account Here.</h1>
+      </div>
+    </div>
+    <div class="right">
+      <p>Please Enter your informations below.</p>
+      <div class="inputs">
+        <input type="text" placeholder="CIN" class="form-control mb-3" />
+        <input type="text" placeholder="Name" class="form-control mb-3" />
+        <input type="text" placeholder="Midname" class="form-control mb-3" />
+        <select class="form-select mb-3">
+          <option selected disabled>Choose Filiere</option>
+          <option value="TI">TI</option>
+          <option value="MGT">MGT</option>
+        </select>
+        <input type="text" placeholder="Username" class="form-control mb-3" />
+        <input
+          type="password"
+          placeholder="Password"
+          class="form-control mb-3"
+        />
+
+        <div class="form-check form-check-inline mb-3">
+          <input
+            class="raduis"
+            type="radio"
+            name="userType"
+            id="juryRadio"
+            value="jury"
+          />
+          <label class="form-check-label" for="juryRadio">Jury</label>
+        </div>
+        <div class="form-check form-check-inline mb-3">
+          <input
+            class="raduis"
+            type="radio"
+            name="userType"
+            id="etudiantRadio"
+            value="etudiant"
+          />
+          <label class="form-check-label" for="etudiantRadio">Etudiant</label>
+        </div>
+        <br />
+        <button type="submit" class="button" ><a routerLink="/login" style="color: aliceblue;"> sign up</a></button>
+      </div>
+    </div>
+  </form>
+</section>
