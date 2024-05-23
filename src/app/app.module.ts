@@ -32,6 +32,16 @@ import { DepotAffectationComponent } from './backoffice/admin/depot-affectation/
 import { AjoutEntrepriseComponent } from './backoffice/admin/ajout-entreprise/ajout-entreprise.component';
 import { DetailEntrepriseComponent } from './backoffice/admin/detail-entreprise/detail-entreprise.component';
 import { AjouterSoutenanceComponent } from './backoffice/admin/ajouter-soutenance/ajouter-soutenance.component';
+import { ProfilComponent } from './backoffice/etudiant/profil/profil.component';
+import { ModifierUsernameComponent } from './backoffice/etudiant/modifier-username/modifier-username.component';
+import { ModifierPasswordComponent } from './backoffice/etudiant/modifier-password/modifier-password.component';
+import { ProfiljComponent } from './backoffice/jury/profilj/profilj.component';
+import { ModifierCinComponent } from './backoffice/etudiant/modifier-cin/modifier-cin.component';
+import { ModifierUsernamejComponent } from './backoffice/jury/modifier-usernamej/modifier-usernamej.component';
+import { ModifierPasswordjComponent } from './backoffice/jury/modifier-passwordj/modifier-passwordj.component';
+import { ModifierCinjComponent } from './backoffice/jury/modifier-cinj/modifier-cinj.component';
+import { ModifierUAComponent } from './backoffice/admin/modifier-ua/modifier-ua.component';
+import { ModifierPAComponent } from './backoffice/admin/modifier-pa/modifier-pa.component';
 
 @NgModule({
   declarations: [
@@ -64,7 +74,17 @@ import { AjouterSoutenanceComponent } from './backoffice/admin/ajouter-soutenanc
     DepotAffectationComponent,
     AjoutEntrepriseComponent,
     DetailEntrepriseComponent,
-    AjouterSoutenanceComponent
+    AjouterSoutenanceComponent,
+    ProfilComponent,
+    ModifierUsernameComponent,
+    ModifierPasswordComponent,
+    ProfiljComponent,
+    ModifierCinComponent,
+    ModifierUsernamejComponent,
+    ModifierPasswordjComponent,
+    ModifierCinjComponent,
+    ModifierUAComponent,
+    ModifierPAComponent
   ],
   imports: [
     BrowserModule,

@@ -27,6 +27,16 @@ import { AjoutEntrepriseComponent } from './backoffice/admin/ajout-entreprise/aj
 import { DepotAffectationComponent } from './backoffice/admin/depot-affectation/depot-affectation.component';
 import { DetailEntrepriseComponent } from './backoffice/admin/detail-entreprise/detail-entreprise.component';
 import { AjouterSoutenanceComponent } from './backoffice/admin/ajouter-soutenance/ajouter-soutenance.component';
+import { ProfilComponent } from './backoffice/etudiant/profil/profil.component';
+import { ModifierUsernameComponent } from './backoffice/etudiant/modifier-username/modifier-username.component';
+import { ModifierPasswordComponent } from './backoffice/etudiant/modifier-password/modifier-password.component';
+import { ProfiljComponent } from './backoffice/jury/profilj/profilj.component';
+import { ModifierCinComponent } from './backoffice/etudiant/modifier-cin/modifier-cin.component';
+import { ModifierUsernamejComponent } from './backoffice/jury/modifier-usernamej/modifier-usernamej.component';
+import { ModifierPasswordjComponent } from './backoffice/jury/modifier-passwordj/modifier-passwordj.component';
+import { ModifierCinjComponent } from './backoffice/jury/modifier-cinj/modifier-cinj.component';
+import { ModifierUAComponent } from './backoffice/admin/modifier-ua/modifier-ua.component';
+import { ModifierPAComponent } from './backoffice/admin/modifier-pa/modifier-pa.component';
 
 const routes: Routes = [
   {path:'',title:'',component:DefaultComponent,children:[
@@ -43,6 +53,10 @@ const routes: Routes = [
     {path:'dashhome',title:'Dash jury',component:DashhomeComponent},
     {path:'dashconsulter',title:'Consulter',component:DashconsulterComponent},
     {path:'dashnote',title:'Affecter Note',component:DashnoteComponent},
+    {path:'profilej',title:'Profil Jury',component:ProfiljComponent},
+    {path:'modifUj',title:'Modifier Username Jury',component:ModifierUsernamejComponent},
+    {path:'modifPj',title:'Modifier Mot de passe Jury',component:ModifierPasswordjComponent},
+    {path:'modifCi',title:'Modifier Cin Jury',component:ModifierCinjComponent},
     {path:'',redirectTo:'/dashjury/dashHome',pathMatch:'full'}
 
   ]},
@@ -55,6 +69,8 @@ const routes: Routes = [
     {path:'ajoutEntreprise',title:'Ajout Entreprise',component:AjoutEntrepriseComponent},
     {path:'detailsE',title:'Details Entreprise',component:DetailEntrepriseComponent},
     {path:'ajouterS',title:'Ajouter Soutenance',component:AjouterSoutenanceComponent},
+    {path:'modifierUA',title:'Modifier Username Admin',component:ModifierUAComponent},
+    {path:'modifierPA',title:'Modifier Mot de passe Admin',component:ModifierPAComponent},
     {path:'',redirectTo:'/dashadmin/dashhomeAdmin',pathMatch:'full'}
 
   ]},
@@ -65,6 +81,10 @@ const routes: Routes = [
     {path:'demande',title:'Demandede Stage',component:DashdemandeComponent},
     {path:'rapport',title:'Rapport',component:RapportComponent},
     {path:'attestation',title:'Attestation',component:AttestationComponent},
+    {path:'profile',title:'Profile Etudiant',component:ProfilComponent},
+    {path:'modifU',title:'Modifier Username Etudiant',component:ModifierUsernameComponent},
+    {path:'modifP',title:'Modifier Password Etudiant',component:ModifierPasswordComponent},
+    {path:'modifCi',title:'Modifier CIN Etudiant',component:ModifierCinComponent},
     {path:'',redirectTo:'/dashetudiant/dashhomeetud',pathMatch:'full'}
 
   ]},
