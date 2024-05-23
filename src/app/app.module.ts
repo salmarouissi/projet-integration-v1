@@ -7,9 +7,6 @@ import { DefaultComponent } from './frontoffice/default/default.component';
 import { MenuComponent } from './frontoffice/menu/menu.component';
 import { FooterComponent } from './frontoffice/footer/footer.component';
 import { HomeComponent } from './frontoffice/home/home.component';
-import { TechnologyComponent } from './frontoffice/technology/technology.component';
-import { ManagementComponent } from './frontoffice/management/management.component';
-import { TicmanagComponent } from './frontoffice/ticmanag/ticmanag.component';
 import { LoginComponent } from './frontoffice/login/login.component';
 import { CreateComponent } from './frontoffice/create/create.component';
 import { DashJuryComponent } from './backoffice/jury/dash-jury/dash-jury.component';
@@ -50,9 +47,6 @@ import { ModifierPAComponent } from './backoffice/admin/modifier-pa/modifier-pa.
     MenuComponent,
     FooterComponent,
     HomeComponent,
-    TechnologyComponent,
-    ManagementComponent,
-    TicmanagComponent,
     LoginComponent,
     CreateComponent,
     DashJuryComponent,

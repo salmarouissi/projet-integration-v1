@@ -15,9 +15,6 @@ import { CreateComponent } from './frontoffice/create/create.component';
 import { DefaultComponent } from './frontoffice/default/default.component';
 import { HomeComponent } from './frontoffice/home/home.component';
 import { LoginComponent } from './frontoffice/login/login.component';
-import { ManagementComponent } from './frontoffice/management/management.component';
-import { TechnologyComponent } from './frontoffice/technology/technology.component';
-import { TicmanagComponent } from './frontoffice/ticmanag/ticmanag.component';
 import { DashadminComponent } from './backoffice/admin/dashadmin/dashadmin.component';
 import { DashhomeAdminComponent } from './backoffice/admin/dashhome-admin/dashhome-admin.component';
 import { ListerEtudiantComponent } from './backoffice/admin/lister-etudiant/lister-etudiant.component';
@@ -42,9 +39,6 @@ const routes: Routes = [
   {path:'',title:'',component:DefaultComponent,children:[
     {path:'home',title:'Home',component:HomeComponent},
     {path:'',redirectTo:'/home',pathMatch:'full'},
-    {path:'departement',title:'Departement',component:TicmanagComponent},
-    {path:'technologie',title:'technologie',component:TechnologyComponent},
-    {path:'management',title:'Management',component:ManagementComponent},
   ]},
   {path:'login',title:'Login',component:LoginComponent},
   {path:'create',title:'Create',component:CreateComponent},
